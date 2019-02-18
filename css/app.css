@@ -1,0 +1,113 @@
+.text-center {
+  text-align: center;
+}
+
+.body {
+  background-image: url("../img.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background: linear-gradient(#E0E0E0,#424242); */
+  /* color: white; */
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+.healthbar {
+  width: 80%;
+  height: 40px;
+  background-color: #eee;
+  margin: auto;
+  transition: width 500ms;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.controls,
+.log {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 6px #ccc;
+}
+
+.turn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.log ul {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.log ul li {
+  margin: 5px;
+}
+
+.log ul .player-turn {
+  color: #721b24;
+  background-color: #f8d7da;
+}
+
+.log ul .bacteria-turn {
+  color: #1d89dc;
+  background-color: #c6f1f4;
+}
+
+button {
+  font-size: 20px;
+  background-color: #eee;
+  padding: 12px;
+  box-shadow: 0 1px 1px black;
+  margin: 10px;
+}
+
+#start-game {
+  background-color: #aaffb0;
+}
+
+#start-game:hover {
+  background-color: #76ff7e;
+}
+
+#attack {
+  background-color: #ff7367;
+}
+
+#attack:hover {
+  background-color: #ff3f43;
+}
+
+#special-attack {
+  background-color: #ffaf4f;
+}
+
+#special-attack:hover {
+  background-color: #ff9a2b;
+}
+
+#heal {
+  background-color: #aaffb0;
+}
+
+#heal:hover {
+  background-color: #76ff7e;
+}
+
+#give-up {
+  background-color: #ffffff;
+}
+
+#give-up:hover {
+  background-color: #c7c7c7;
+}
